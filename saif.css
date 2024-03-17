@@ -1,0 +1,153 @@
+/* إعادة تعيين أنماط المتصفح الافتراضية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body */
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* header */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #ddd;
+  }
+  
+  /* hero section */
+  .hero {
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin-top: 10px;
+    font-size: 36px;
+  }
+  
+  .hero p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  /* أخبار عاجلة */
+  .اخبار-عاجلة {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .اخبار-عاجلة h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .اخبار-عاجلة ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .اخبار-عاجلة ul li {
+    margin-bottom: 10px;
+  }
+  
+  .اخبار-عاجلة ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .اخبار-عاجلة ul li a:hover {
+    color: #000;
+  }
+  
+  /* مباريات اليوم */
+  .مباريات-اليوم {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .مباريات-اليوم h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .مباريات-اليوم table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .مباريات-اليوم table th, .مباريات-اليوم table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* مقالات */
+  .مقالات {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .مقالات h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  .مقالات ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .مقالات ul li {
+    margin-bottom: 10px;
+  }
+  
+  .مقالات ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .مقالات ul li a:hover {
+    color: #000;
+  }
+  
+  /* footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+  }
